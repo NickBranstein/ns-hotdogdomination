@@ -1,0 +1,8 @@
+<Page navigatingTo="navigatingTo">
+  <StackLayout verticalAlignment="bottom">
+    <StackLayout orientation="horizontal" horizontalAlignment="center">
+      <Button style="margin: 20px;" text="Start" tap="onStartTap"></Button>
+      <Button style="margin: 20px;" text="Continue" tap="onContinueTap"></Button>
+    </StackLayout>
+  </StackLayout>
+</Page>

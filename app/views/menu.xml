@@ -1,0 +1,10 @@
+<Page>
+    <GridLayout columns="*, *" rows="*, *, *, auto">
+        <Button col="0" row="0" text="Junkyard" tap="onJunkyardTap" />
+        <Button col="1" row="0" text="Store" tap="onStoreTap" />
+        <Button col="0" row="1" text="Garage" tap="onGarageTap" />
+        <Button col="1" row="1" text="Map" tap="onMapTap" />
+        <Button col="0" row="2" colSpan="2" text="Supplier" tap="onSupplierTap" />
+        <Label col="0" row="3" colSpan="2" text="$1000"></Label>
+    </GridLayout>
+</Page>
