@@ -1,4 +1,4 @@
-<Page navigatingTo="navigatingTo">
+<Page>
   <StackLayout verticalAlignment="bottom">
     <StackLayout orientation="horizontal" horizontalAlignment="center">
       <Button style="margin: 20px;" text="Start" tap="onStartTap"></Button>
