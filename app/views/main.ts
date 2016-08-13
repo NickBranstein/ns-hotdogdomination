@@ -1,4 +1,4 @@
-import frameModule = require("ui/frame");
+import * as frameModule from "ui/frame";
 
 export function onStartTap() {
     frameModule.topmost().navigate("views/menu");
