@@ -1,9 +1,14 @@
 "use strict";
-var game_1 = require("../models/game");
+var dataService_1 = require("../services/dataService");
 function onLoaded(args) {
     // Get the event sender
     var page = args.object;
-    page.bindingContext = new game_1.Game();
+    page.bindingContext = dataService_1.DataService.load();
 }
 exports.onLoaded = onLoaded;
+function onJunkyardTap(args) {
+    var game = args.object.bindingContext;
+    dataService_1.DataService.save(game);
+}
+exports.onJunkyardTap = onJunkyardTap;
 //# sourceMappingURL=menu.js.map
